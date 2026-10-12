@@ -6,19 +6,288 @@
     <version>1.0</version>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <maven.compiler.source>11</maven.compiler.source>
-        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.release>21</maven.compiler.release>
+        <javafx.version>27</javafx.version>
     </properties>
+    <repositories>
+        
+        <!--01-->
+        <repository>
+            <id>core</id>
+            <url>file://{project.basedir}/libs/core-3.5.4.jar</url>
+        </repository>
+        
+        <!--02-->
+        <repository>
+            <id>jfxtras-controls</id>
+            <url>file://{project.basedir}/libs/jfxtras-controls-17-r1.jar</url>
+        </repository>
+        
+        <!--03-->
+        <repository>
+            <id>gson</id>
+            <url>file://{project.basedir}/libs/gson-2.14.0.jar</url>
+        </repository>
+        
+        <!--04-->
+        <repository>
+            <id>cssfx</id>
+            <url>file://{project.basedir}/libs/cssfx-11.5.1.jar</url>
+        </repository>
+        
+        <!--05-->
+        <repository>
+            <id>okhttp</id>
+            <url>file://{project.basedir}/libs/okhttp-5.5.0.jar</url>
+        </repository>
+        
+        <!--06-->
+        <repository>
+            <id>jamepad</id>
+            <url>file://{project.basedir}/libs/jamepad-2.30.0.0.jar</url>
+        </repository>
+        
+        <!--07-->
+        <repository>
+            <id>jna</id>
+            <url>file://{project.basedir}/libs/jna-5.19.1.jar</url>
+        </repository>
+        
+        <!--08-->
+        <repository>
+            <id>jna-plataform</id>
+            <url>file://{project.basedir}/libs/jna-5.19.1.jar</url>
+        </repository>
+        
+        <!--09-->
+        <repository>
+            <id>slf4-api</id>
+            <url>file://{project.basedir}/libs/slf4-api-2.0.18.jar</url>
+        </repository>
+        
+        <!--10-->
+        <repository>
+            <id>logback-classic</id>
+            <url>file://{project.basedir}/libs/logback-core-1.6.3.jar</url>
+        </repository>
+        
+        <!--11-->
+        <repository>
+            <id>atlantafx-base</id>
+            <url>file://{project.basedir}/libs/atlantafx-base-2.1.0.jar</url>
+        </repository>
+        
+        <!--12-->
+        <repository>
+            <id>poi-ooxml</id>
+            <url>file://{project.basedir}/libs/poi-ooxml-5.5.1.jar</url>
+        </repository>
+        
+        <!--13-->
+        <repository>
+            <id>bcpkix-jdk18on</id>
+            <url>file://{project.basedir}/libs/bcpkix-jdk18on-1.86.jar</url>
+        </repository>
+        
+        <!--14-->
+        <repository>
+            <id>bcprov-jdk18on</id>
+            <url>file://{project.basedir}/libs/bcprov-jdk18on-1.86.jar</url>
+        </repository>
+        
+        <!--15-->
+        <repository>
+            <id>bcutil-jdk18on</id>
+            <url>file://{project.basedir}/libs/bcutil-jdk18on-1.86.jar</url>
+        </repository>
+        
+        <!--16-->
+        <repository>
+            <id>gst1-java-core</id>
+            <url>file://{project.basedir}/libs/gst1-java-core-1.4.0.jar</url>
+        </repository>
+        
+        <!--17-->
+        <repository>
+            <id>oshi-core</id>
+            <url>file://{project.basedir}/libs/oshi-core-7.7.0.jar</url>
+        </repository>
+        
+        <!--18-->
+        <repository>
+            <id>plantuml</id>
+            <url>file://{project.basedir}/libs/plantuml-1.2026.8.jar</url>
+        </repository>
+        
+        <!--19-->
+        <repository>
+            <id>usb4java</id>
+            <url>file://{project.basedir}/libs/usb4java-1.3.0.jar</url>
+        </repository>
+        
+        <!--20-->
+        <repository>
+            <id>vlcj</id>
+            <url>file://{project.basedir}/libs/vlcj-4.11.0.jar</url>
+        </repository>
+        
+    </repositories>
     <dependencies>
+        
+        <dependency>
+            <groupId>com.google.zxing</groupId>
+            <artifactId>core</artifactId>
+            <version>3.5.3</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.jfxtras</groupId>
+            <artifactId>jfxtras-controls</artifactId>
+            <version>17-r1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.14.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>fr.brouillard.oss</groupId>
+            <artifactId>cssfx</artifactId>
+            <version>11.5.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.squareup.okhttp3</groupId>
+            <artifactId>okhttp</artifactId>
+            <version>5.5.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.badlogicgames.jamepad</groupId>
+            <artifactId>jamepad</artifactId>
+            <version>2.30.0.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna</artifactId>
+            <version>5.19.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>net.java.dev.jna</groupId>
+            <artifactId>jna-platform</artifactId>
+            <version>5.19.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>2.0.18</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.5.38</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.github.mkpaz</groupId>
+            <artifactId>atlantafx-base</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.5.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcpkix-jdk18on</artifactId>
+            <version>1.86</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk18on</artifactId>
+            <version>1.86</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcutil-jdk18on</artifactId>
+            <version>1.86</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.freedesktop.gstreamer</groupId>
+            <artifactId>gst1-java-core</artifactId>
+            <version>1.4.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.github.oshi</groupId>
+            <artifactId>oshi-core</artifactId>
+            <version>7.7.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>net.sourceforge.plantuml</groupId>
+            <artifactId>plantuml</artifactId>
+            <version>1.2026.8</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.usb4java</groupId>
+            <artifactId>usb4java</artifactId>
+            <version>1.3.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>uk.co.caprica</groupId>
+            <artifactId>vlcj</artifactId>
+            <version>4.11.0</version>
+        </dependency>
+
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>
-            <version>13</version>
+            <version>${javafx.version}</version>
         </dependency>
+        
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-fxml</artifactId>
-            <version>13</version>
+            <version>${javafx.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-base</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-graphics</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-media</artifactId>
+            <version>${javafx.version}</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.openjfx</groupId>
+            <artifactId>javafx-web</artifactId>
+            <version>${javafx.version}</version>
         </dependency>
     </dependencies>
     <build>
