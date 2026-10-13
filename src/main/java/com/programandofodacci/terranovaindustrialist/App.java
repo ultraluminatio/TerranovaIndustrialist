@@ -5,11 +5,13 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-
 import java.io.IOException;
+import fr.brouillard.oss.cssfx.CSSFX;
 
 /**
- * JavaFX App
+ * JavaFX App <br>
+ * 
+ * <p style="color: lime; font-weight: bold">Criador: <a href="https://github.com/ultraluminatio">link</a></p>
  */
 public class App extends Application {
 
@@ -18,6 +20,9 @@ public class App extends Application {
     @Override
     public void start(Stage stage) throws IOException {
         scene = new Scene(loadFXML("primary"), 640, 480);
+        
+        CSSFX.start(scene);
+        
         stage.setScene(scene);
         stage.show();
     }

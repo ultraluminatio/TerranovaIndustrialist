@@ -37,7 +37,7 @@
         
         <!--05-->
         <repository>
-            <id>okhttp</id>
+            <id>okhttp-jvm</id>
             <url>file://{project.basedir}/libs/okhttp-5.5.0.jar</url>
         </repository>
         
@@ -131,6 +131,35 @@
             <url>file://{project.basedir}/libs/vlcj-4.11.0.jar</url>
         </repository>
         
+        <!--21-->
+        <repository>
+            <id>netty-all</id>
+            <url>file://{project.basedir}/libs/netty-all-4.2.19.Final.jar</url>
+        </repository>
+        
+        <!--22-->
+        <repository>
+            <id>concentus</id>
+            <url>file://{project.basedir}/libs/concentus-1.0.2.jar</url>
+        </repository>
+        
+        <!--23-->
+        <repository>
+            <id>pickerfx</id>
+            <url>file://{project.basedir}/libs/pickerfx-1.3.1.jar</url>
+        </repository>
+       
+        <!--24-->
+        <repository>
+            <id>validatorfx</id>
+            <url>file://{project.basedir}/libs/validatorfx-1.0.0.jar</url>
+        </repository>
+        
+        <!--25-->
+        <repository>
+            <id>tika-core</id>
+            <url>file://{project.basedir}/libs/tika-core-4.1.0.jar</url>
+        </repository>
     </repositories>
     <dependencies>
         
@@ -160,7 +189,7 @@
         
         <dependency>
             <groupId>com.squareup.okhttp3</groupId>
-            <artifactId>okhttp</artifactId>
+            <artifactId>okhttp-jvm</artifactId>
             <version>5.5.0</version>
         </dependency>
         
@@ -253,7 +282,37 @@
             <artifactId>vlcj</artifactId>
             <version>4.11.0</version>
         </dependency>
-
+        
+        <dependency>
+            <groupId>io.netty</groupId>
+            <artifactId>netty-all</artifactId>
+            <version>4.2.19.Final</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>io.github.jaredmdobson</groupId>
+            <artifactId>concentus</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>com.dlsc.pickerfx</groupId>
+            <artifactId>pickerfx</artifactId>
+            <version>1.3.1</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>net.synedra</groupId>
+            <artifactId>validatorfx</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        
+        <dependency>
+            <groupId>org.apache.tika</groupId>
+            <artifactId>tika-core</artifactId>
+            <version>4.1.0</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-controls</artifactId>

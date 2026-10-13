@@ -4,11 +4,13 @@ module com.programandofodacci.terranovaindustrialist {
     
     requires ch.qos.logback.classic;
     requires ch.qos.logback.core;
+    requires com.dlsc.pickerfx;
     requires com.github.oshi;
     requires com.google.gson;
     requires com.google.zxing;
     requires com.sun.jna;
     requires com.sun.jna.platform;
+    requires concentus;
     
     requires fr.brouillard.oss.cssfx;
     
@@ -25,10 +27,14 @@ module com.programandofodacci.terranovaindustrialist {
     
     requires libusb4java;
     
-    requires okhttp;
+    requires net.synedra.validatorfx;
+    requires netty.all;
+    
+    requires okhttp3;
     requires org.apache.logging.log4j;
     requires org.apache.poi.ooxml;
     requires org.apache.poi.poi;
+    requires org.apache.tika.core;
     requires org.bouncycastle.pkix;
     requires org.bouncycastle.provider;
     requires org.bouncycastle.util;
