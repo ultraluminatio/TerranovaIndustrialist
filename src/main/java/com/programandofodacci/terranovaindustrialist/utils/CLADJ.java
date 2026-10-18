@@ -25,7 +25,7 @@ public class CLADJ {
     public <T extends Object> T getClasse(String json, Class<T> classe){
         try{
             gson = new GsonBuilder().create();
-            T saida = new Gson().fromJson(json, classe);
+            T saida = gson.fromJson(json, classe);
             
             gson = null;
             return saida;
@@ -38,7 +38,7 @@ public class CLADJ {
     public <T extends Object> T getClasse(String json, Type tipoClasse){
         try{
             gson = new GsonBuilder().create();
-            T saida = new Gson().fromJson(json, tipoClasse);
+            T saida = gson.fromJson(json, tipoClasse);
             
             gson = null;
             return saida;
@@ -51,7 +51,7 @@ public class CLADJ {
     public <T extends Object> T getClasse(String json, TypeToken<T> tipoClasse){
         try{
             gson = new GsonBuilder().create();
-            T saida = new Gson().fromJson(json, tipoClasse);
+            T saida = gson.fromJson(json, tipoClasse);
             
             gson = null;
             return saida;
@@ -109,7 +109,7 @@ public class CLADJ {
             //TODO: Adicionar uma classe para armazenar algumas exceptions
         }
         return null;
-    }
+    } 
     
 }
    
