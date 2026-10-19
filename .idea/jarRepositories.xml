@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteRepositoriesConfiguration">
+    <remote-repository>
+      <option name="id" value="jfxtras-controls" />
+      <option name="name" value="jfxtras-controls" />
+      <option name="url" value="file://{project.basedir}/libs/jfxtras-controls-17-r1.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="concentus" />
+      <option name="name" value="concentus" />
+      <option name="url" value="file://{project.basedir}/libs/concentus-1.0.2.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jamepad" />
+      <option name="name" value="jamepad" />
+      <option name="url" value="file://{project.basedir}/libs/jamepad-2.30.0.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bcutil-jdk18on" />
+      <option name="name" value="bcutil-jdk18on" />
+      <option name="url" value="file://{project.basedir}/libs/bcutil-jdk18on-1.86.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="richtextfx" />
+      <option name="name" value="richtextfx" />
+      <option name="url" value="file://{project.basedir}/libs/richtextfx-0.11.7.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jna-plataform" />
+      <option name="name" value="jna-plataform" />
+      <option name="url" value="file://{project.basedir}/libs/jna-5.19.1.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="poi-ooxml" />
+      <option name="name" value="poi-ooxml" />
+      <option name="url" value="file://{project.basedir}/libs/poi-ooxml-5.5.1.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="slf4-api" />
+      <option name="name" value="slf4-api" />
+      <option name="url" value="file://{project.basedir}/libs/slf4-api-2.0.18.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="cssfx" />
+      <option name="name" value="cssfx" />
+      <option name="url" value="file://{project.basedir}/libs/cssfx-11.5.1.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="okhttp-jvm" />
+      <option name="name" value="okhttp-jvm" />
+      <option name="url" value="file://{project.basedir}/libs/okhttp-5.5.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="validatorfx" />
+      <option name="name" value="validatorfx" />
+      <option name="url" value="file://{project.basedir}/libs/validatorfx-1.0.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="atlantafx-base" />
+      <option name="name" value="atlantafx-base" />
+      <option name="url" value="file://{project.basedir}/libs/atlantafx-base-2.1.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gst1-java-core" />
+      <option name="name" value="gst1-java-core" />
+      <option name="url" value="file://{project.basedir}/libs/gst1-java-core-1.4.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="oshi-core" />
+      <option name="name" value="oshi-core" />
+      <option name="url" value="file://{project.basedir}/libs/oshi-core-7.7.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jboss.community" />
+      <option name="name" value="JBoss Community repository" />
+      <option name="url" value="https://repository.jboss.org/nexus/content/repositories/public/" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="core" />
+      <option name="name" value="core" />
+      <option name="url" value="file://{project.basedir}/libs/core-3.5.4.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="jna" />
+      <option name="name" value="jna" />
+      <option name="url" value="file://{project.basedir}/libs/jna-5.19.1.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Central Repository" />
+      <option name="url" value="https://repo.maven.apache.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="twitch4j-helix" />
+      <option name="name" value="twitch4j-helix" />
+      <option name="url" value="file://{project.basedir}/libs/twitch4j-1.27.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="tika-core" />
+      <option name="name" value="tika-core" />
+      <option name="url" value="file://{project.basedir}/libs/tika-core-4.1.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="logback-classic" />
+      <option name="name" value="logback-classic" />
+      <option name="url" value="file://{project.basedir}/libs/logback-core-1.6.3.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="central" />
+      <option name="name" value="Maven Central repository" />
+      <option name="url" value="https://repo1.maven.org/maven2" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="plantuml" />
+      <option name="name" value="plantuml" />
+      <option name="url" value="file://{project.basedir}/libs/plantuml-1.2026.8.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="pickerfx" />
+      <option name="name" value="pickerfx" />
+      <option name="url" value="file://{project.basedir}/libs/pickerfx-1.3.1.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="preferencesfx" />
+      <option name="name" value="preferencesfx" />
+      <option name="url" value="file://{project.basedir}/libs/preferencesfx-26.0.5.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="thumbnailator" />
+      <option name="name" value="thumbnailator" />
+      <option name="url" value="file://{project.basedir}/libs/thumbnailator-0.4.21.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="controlsfx" />
+      <option name="name" value="controlsfx" />
+      <option name="url" value="file://{project.basedir}/libs/controlsfx-11.2.5.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bcprov-jdk18on" />
+      <option name="name" value="bcprov-jdk18on" />
+      <option name="url" value="file://{project.basedir}/libs/bcprov-jdk18on-1.86.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="okio-jvm" />
+      <option name="name" value="okio-jvm" />
+      <option name="url" value="file://{project.basedir}/libs/okio-jvm-3.9.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="gson" />
+      <option name="name" value="gson" />
+      <option name="url" value="file://{project.basedir}/libs/gson-2.14.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="netty-all" />
+      <option name="name" value="netty-all" />
+      <option name="url" value="file://{project.basedir}/libs/netty-all-4.2.19.Final.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="usb4java" />
+      <option name="name" value="usb4java" />
+      <option name="url" value="file://{project.basedir}/libs/usb4java-1.3.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="vlcj" />
+      <option name="name" value="vlcj" />
+      <option name="url" value="file://{project.basedir}/libs/vlcj-4.11.0.jar" />
+    </remote-repository>
+    <remote-repository>
+      <option name="id" value="bcpkix-jdk18on" />
+      <option name="name" value="bcpkix-jdk18on" />
+      <option name="url" value="file://{project.basedir}/libs/bcpkix-jdk18on-1.86.jar" />
+    </remote-repository>
+  </component>
+</project>
