@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Configuração de sistema de log-->
+<configuration>
+    <!--Registra o log no console-->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>
+                <!--Formatação de mensagem de log-->
+                %d{HH:mm:ss.SSS} %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+    <!--Registra o log em um arquivo de log-->
+    <appender name="FILE" class="ch.qos.logback.core.FileAppender">
+        <file>out.log</file>
+        <append>true</append>
+        <encoder>
+            <pattern>
+                <!--Formatação de mensagem de log-->
+                %d{HH:mm:ss.SSS} [%thread] %-5level %logger - %msg%n
+            </pattern>
+        </encoder>
+    </appender>
+
+
+    <!--Registra o log em um arquivo de html-->
+    <appender name="HTML" class="ch.qos.logback.core.FileAppender">
+        <file>out.html</file>
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.classic.html.HTMLLayout">
+                <pattern>
+                    <!--Formatação de mensagem de log-->
+                    %relative%thread%level%logger%msg
+                </pattern>
+            </layout>
+        </encoder>
+    </appender>
+
+    <root level="trace">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+        <appender-ref ref="HTML"/>
+    </root>
+</configuration>

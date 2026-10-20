@@ -66,7 +66,6 @@ public class CLADJ {
         try{
             gson = new GsonBuilder().
                     setPrettyPrinting().
-                    excludeFieldsWithoutExposeAnnotation().
                     create();
             String saida = gson.toJson(objeto, objeto.getClass());
             
@@ -109,7 +108,68 @@ public class CLADJ {
             //TODO: Adicionar uma classe para armazenar algumas exceptions
         }
         return null;
-    } 
-    
+    }
+
+    public String toJsonWithoutExpose(Object objeto, boolean semVariaveExposta){
+        try{
+            gson = semVariaveExposta ?
+                new GsonBuilder().
+                    setPrettyPrinting().
+                    excludeFieldsWithoutExposeAnnotation().
+                    create() :
+                new GsonBuilder().
+                        setPrettyPrinting().
+                        create();
+
+            String saida = gson.toJson(objeto, objeto.getClass());
+
+            gson = null;
+            return saida;
+        }
+        catch(JsonSyntaxException e){
+            //TODO: Adicionar uma classe para armazenar algumas exceptions
+        }
+        return null;
+    }
+    public String ttoJsonWithoutExpose(Object objeto, boolean semVariaveExposta, Class classe){
+        try{
+            gson = semVariaveExposta ?
+                    new GsonBuilder().
+                            setPrettyPrinting().
+                            excludeFieldsWithoutExposeAnnotation().
+                            create() :
+                    new GsonBuilder().
+                            setPrettyPrinting().
+                            create();
+            String saida = gson.toJson(objeto, classe);
+
+            gson = null;
+            return saida;
+        }
+        catch(JsonSyntaxException e){
+            //TODO: Adicionar uma classe para armazenar algumas exceptions
+        }
+        return null;
+    }
+    public String toJsonWithoutExpose(Object objeto, boolean semVariaveExposta, Type Tipoclasse){
+        try{
+            gson = semVariaveExposta ?
+                    new GsonBuilder().
+                            setPrettyPrinting().
+                            excludeFieldsWithoutExposeAnnotation().
+                            create() :
+                    new GsonBuilder().
+                            setPrettyPrinting().
+                            create();
+            String saida = gson.toJson(objeto, Tipoclasse);
+
+            gson = null;
+            return saida;
+        }
+        catch(JsonSyntaxException e){
+            //TODO: Adicionar uma classe para armazenar algumas exceptions
+        }
+        return null;
+    }
 }
    
